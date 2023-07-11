@@ -5,27 +5,59 @@ body {
 }
 
 .header {
+    height: 100px;
     background-color: blanchedalmond;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.navegador {
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+.menu1 li {
+    display: inline;
+    padding: 20px;
+    color: white;
+
 }
 
 h1 {
     color: white;
     font-size: 30px;
     text-align: center;
+    margin: 0;
 }
 
 section {
     margin: 0 auto;
     line-height: 400px;
+    padding: 0;
+}
+
+.fondo {
+    background-image: url(source/fondo2.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    height: 100px;
 }
 
 footer {
     background-color: black;
-    height: 150px;
+    height: 100px;
 }
 
 h3 {
     color: white;
+    font-size: 15px;
     text-align: center;
-    line-height: 150px;
+    line-height: 100px;
+    margin: 0;
 }
