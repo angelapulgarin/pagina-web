@@ -7,6 +7,8 @@ body {
 .header {
     height: 100px;
     background-color: blanchedalmond;
+    color:black;
+    padding: 2rem 10px;
 }
 
 img {
@@ -47,9 +49,31 @@ section {
     background-size: cover;
     min-height: 100vh;
     height: 100px;
+=======
+main img{
+    height: 200px;
+    width:100%;
 }
+h4{
+    color: rgb(15, 1, 37);
+    font-size: 25px;
+    text-align: left;
+
+}
+main .text-r{
+    text-align: justify;
+   
+}  
+main h3{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(235, 211, 211);
+}    
+    
+
 
 footer {
+
     background-color: black;
     height: 100px;
 }
@@ -60,4 +84,15 @@ h3 {
     text-align: center;
     line-height: 100px;
     margin: 0;
+=======
+    background-color: rgb(66, 47, 47);
+    height: 150px;
+}
+
+footer h3{
+    color: rgb(43, 20, 20);
+    font-size: 30px;
+    text-align: center;
+    
+
 }
